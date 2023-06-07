@@ -2,11 +2,11 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "aws-account05@innovationinsoftware.com"
-    AccountName               = "Account05 AFT"
+    AccountEmail              = "aws-account07@innovationinsoftware.com"
+    AccountName               = "Account07 AFT"
     ManagedOrganizationalUnit = "AFT"
-    SSOUserEmail              = "aws-account05@innovationinsoftware.com"
-    SSOUserFirstName          = "Account05"
+    SSOUserEmail              = "aws-account07@innovationinsoftware.com"
+    SSOUserFirstName          = "Account07"
     SSOUserLastName           = "AFT"
   }
 
@@ -16,7 +16,7 @@ module "sandbox" {
 
   change_management_parameters = {
     change_requested_by = "Jason Smith"
-    change_reason       = "TF Reusable Code 05/05/2053"
+    change_reason       = "TF Reusable Code 07/07/2073"
   }
 
   custom_fields = {
