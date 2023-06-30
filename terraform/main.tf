@@ -1,12 +1,12 @@
-module "aft_account_02" {
+module "aft_account_03" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "aws-account02@innovationinsoftware.com"
-    AccountName               = "Account02 AFT"
+    AccountEmail              = "aws-account03@innovationinsoftware.com"
+    AccountName               = "Account03 AFT"
     ManagedOrganizationalUnit = "AFT"
-    SSOUserEmail              = "aws-account02@innovationinsoftware.com"
-    SSOUserFirstName          = "Account02"
+    SSOUserEmail              = "aws-account03@innovationinsoftware.com"
+    SSOUserFirstName          = "Account03"
     SSOUserLastName           = "AFT"
   }
 
