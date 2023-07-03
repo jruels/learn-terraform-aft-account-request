@@ -16,7 +16,7 @@ module "aft_account_03" {
 
   change_management_parameters = {
     change_requested_by = "Jason Smith"
-    change_reason       = "New accounts 20230630"
+    change_reason       = "New accounts 20230703"
   }
 
   custom_fields = {
